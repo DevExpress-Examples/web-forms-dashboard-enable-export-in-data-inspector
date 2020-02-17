@@ -1,7 +1,6 @@
 *Files to look at*:
-
-* [WebForm1.aspx](./CS/DataFederationExample/Form1.cs) (VB: [WebForm1.aspx](./VB/DataFederationExample/Form1.vb))
-* [beforeRender.js]()]
+* [WebForm1.aspx](./CS/aspxdashboard-how-to-enable-export-in-datainspector/WebForm1.aspx)
+* [beforeRender.js](./CS/aspxdashboard-how-to-enable-export-in-datainspector/beforeRender.js)
 
 # ASPxDashboard - How to Enable Exporting in Data Inspector
 
