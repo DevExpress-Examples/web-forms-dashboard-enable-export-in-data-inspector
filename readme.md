@@ -1,6 +1,6 @@
 *Files to look at*:
-* [WebForm1.aspx](./CS/aspxdashboard-how-to-enable-export-in-datainspector/WebForm1.aspx)
-* [beforeRender.js](./CS/aspxdashboard-how-to-enable-export-in-datainspector/beforeRender.js)
+* [WebForm1.aspx](./CS/WebForm1.aspx)
+* [beforeRender.js](./CS/Scripts/beforeRender.js)
 
 # ASPxDashboard - How to Enable Exporting in Data Inspector
 
