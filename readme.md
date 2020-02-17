@@ -7,7 +7,7 @@
 
 This example demonstrates how to enable export to Excel for [Data Inspector](https://docs.devexpress.com/Dashboard/401194/common-features/underlying-and-displayed-data/data-inspector) in ASP.NET Web Forms. 
 
-![](https://docs.devexpress.com/Dashboard/images/data-inspector-export-data-web.png)
+![](images/data_inspector_export.png)
 
 The client-side export requires the [JSZip](https://stuk.github.io/jszip/) third-party library. Install and reference it in your application. Refer to the [DevExtreme Client-Side Exporting](https://js.devexpress.com/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) topic for details.
 
