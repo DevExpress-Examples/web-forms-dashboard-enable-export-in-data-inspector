@@ -1,6 +1,6 @@
 *Files to look at*:
-* [WebForm1.aspx](./CS/WebForm1.aspx) (VB:[WebForm1.aspx](./VB/WebForm1.aspx))
-* [beforeRender.js](./CS/Scripts/beforeRender.js) (VB:[beforeRender.js](./VB/Scripts/beforeRender.js))
+* [WebForm1.aspx](./CS/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebForm1.aspx))
+* [beforeRender.js](./CS/Scripts/beforeRender.js) (VB: [beforeRender.js](./VB/Scripts/beforeRender.js))
 
 # ASPxDashboard - How to Enable Exporting in Data Inspector
 
