@@ -2,33 +2,24 @@
 <Dashboard>
   <Title Text="New Dashboard" />
   <DataSources>
-    <SqlDataSource Name="Invoices" ComponentName="sqlDataSource1">
-      <Connection Name="nwindAccess" FromAppConfig="true" />
-      <Query Type="SelectQuery" Name="CustomerReports">
-        <Tables>
-          <Table Name="CustomerReports" />
-        </Tables>
-        <Columns>
-          <Column Table="CustomerReports" Name="ProductName" />
-          <Column Table="CustomerReports" Name="CompanyName" />
-          <Column Table="CustomerReports" Name="ProductAmount" />
-          <Column Table="CustomerReports" Name="OrderDate" />
-        </Columns>
-      </Query>
-      <ConnectionOptions CloseConnection="true" />
-    </SqlDataSource>
+    <ExtractFileDataSource ComponentName="extractFileDataSource1" Name="Extract Data Source">
+      <FileName>Data/SalesPersonExtract.dat</FileName>
+      <Parameters />
+    </ExtractFileDataSource>
   </DataSources>
   <Items>
-    <Chart ComponentName="chartDashboardItem1" Name="Chart 1" DataSource="sqlDataSource1" DataMember="CustomerReports">
+    <Chart ComponentName="chartDashboardItem1" Name="Sales by Category" DataSource="extractFileDataSource1">
       <InteractivityOptions IsDrillDownEnabled="true" />
       <DataItems>
-        <Measure DataMember="ProductAmount" DefaultId="DataItem0" />
-        <Dimension DataMember="CompanyName" TopNEnabled="true" TopNMeasure="DataItem0" DefaultId="DataItem1" />
-        <Dimension DataMember="ProductName" TopNEnabled="true" TopNMeasure="DataItem0" DefaultId="DataItem2" />
+        <Measure DataMember="Extended Price" DefaultId="DataItem0" />
+        <Dimension DataMember="CategoryName" DefaultId="DataItem1" />
+        <Dimension DataMember="Country" DefaultId="DataItem2" />
       </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
       <Arguments>
         <Argument DefaultId="DataItem1" />
-        <Argument DefaultId="DataItem2" />
       </Arguments>
       <Panes>
         <Pane Name="Pane 1">

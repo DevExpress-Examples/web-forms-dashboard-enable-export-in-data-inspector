@@ -21,8 +21,6 @@
         AllowInspectRawData="true"
                     IncludeDashboardIdToUrl = "True"
                     IncludeDashboardStateToUrl = "True"
-        DashboardStorageFolder="~/App_Data/Dashboards/"
-        
         OnConfigureDataConnection="ASPxDashboard1_ConfigureDataConnection"
         ClientSideEvents-BeforeRender="onBeforeRender">
             </dx:ASPxDashboard>
