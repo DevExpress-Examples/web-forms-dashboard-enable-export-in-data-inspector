@@ -4,7 +4,7 @@
 
 # ASPxDashboard - How to Enable Exporting in Data Inspector
 
-This example demonstrates how to enable export to Excel in [Data Inspector](https://docs.devexpress.com/Dashboard/401194/common-features/underlying-and-displayed-data/data-inspector)(ASP.NET Web Forms). 
+This example demonstrates how to enable export to Excel in [Data Inspector](https://docs.devexpress.com/Dashboard/401194/common-features/underlying-and-displayed-data/data-inspector) (ASP.NET Web Forms). 
 
 ![](images/data_inspector_export.png)
 
