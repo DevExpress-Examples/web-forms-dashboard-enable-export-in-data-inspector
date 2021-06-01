@@ -7,30 +7,29 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
+Option Strict On
+Option Explicit On
 
-Imports Microsoft.VisualBasic
-Imports System
 Namespace Lesson3
 
+    Partial Public Class WebForm1
 
-	Partial Public Class WebForm1
+        '''<summary>
+        '''form1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-		''' <summary>
-		''' form1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-		''' <summary>
-		''' ASPxDashboard1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected ASPxDashboard1 As Global.DevExpress.DashboardWeb.ASPxDashboard
-	End Class
+        '''<summary>
+        '''ASPxDashboard1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents ASPxDashboard1 As Global.DevExpress.DashboardWeb.ASPxDashboard
+    End Class
 End Namespace
