@@ -2,7 +2,7 @@
 * [WebForm1.aspx](./CS/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebForm1.aspx))
 * [beforeRender.js](./CS/Scripts/beforeRender.js) (VB: [beforeRender.js](./VB/Scripts/beforeRender.js))
 
-# ASPxDashboard - How to Enable Export in Data Inspector
+# Dashboard for Web Forms - How to Enable Export in Data Inspector
 
 This example demonstrates how to enable export to Excel in [Data Inspector](https://docs.devexpress.com/Dashboard/401194/common-features/underlying-and-displayed-data/data-inspector) (ASP.NET Web Forms). 
 
