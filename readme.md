@@ -27,3 +27,8 @@ Follow the steps below to enable export to Excel:
 * The [DashboardControlOptions.extensions](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtensionOptions) property.
 * The [DataInspectorExtension](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtension) class.
 * The [DataInspectorExtensionOptions.onGridInitialized](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtensionOptions#js_devexpress_dashboard_datainspectorextensionoptions_ongridinitialized) property.
+
+## More Examples
+
+- [Dashboard for MVC - How to implement server-side export](https://supportcenter.devexpress.com/ticket/details/t590027/asp-net-mvc-dashboard-how-to-implement-server-side-export)
+- [Dashboard for Web Forms - How to export Web Dashboard into PDF with different filter values on different pages](https://supportcenter.devexpress.com/ticket/details/t511362/how-to-export-web-dashboard-into-pdf-with-different-filter-values-on-different-pages)
