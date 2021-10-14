@@ -3,9 +3,6 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T862387)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-*Files to look at*:
-* [WebForm1.aspx](./CS/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebForm1.aspx))
-* [beforeRender.js](./CS/Scripts/beforeRender.js) (VB: [beforeRender.js](./VB/Scripts/beforeRender.js))
 
 # Dashboard for Web Forms - How to Enable Export in Data Inspector
 
@@ -19,6 +16,12 @@ Follow the steps below to enable export to Excel:
 2. Call the [DashboardControl.option](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl?p=netframework#js_devexpress_dashboard_dashboardcontrol_option_args_) method and get access to the [DataInspectorExtension](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtension) options.
 3. Use the [DataInspectorExtensionOptions.onGridInitialized](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtensionOptions#js_devexpress_dashboard_datainspectorextensionoptions_ongridinitialized) property to enable export in the Grid widget before its content is loaded.
 4. Install and reference the additional third-party library required for client-side export. Refer to the following topic for more information: [DevExtreme Client-Side Export](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/).
+
+<!-- default file list -->
+## Files to Look At
+* [WebForm1.aspx](./CS/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebForm1.aspx))
+* [beforeRender.js](./CS/Scripts/beforeRender.js) (VB: [beforeRender.js](./VB/Scripts/beforeRender.js))
+<!-- default file list end -->
 
 ## Documentation
 
