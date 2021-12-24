@@ -2,7 +2,7 @@
 <Dashboard>
   <Title Text="New Dashboard" />
   <DataSources>
-    <ExtractFileDataSource ComponentName="extractFileDataSource1" Name="Extract Data Source">
+    <ExtractFileDataSource ComponentName="extractFileDataSource1" Name="Extract Data Source" ConnectionName="edsSales">
       <FileName>Data/SalesPersonExtract.dat</FileName>
       <Parameters />
     </ExtractFileDataSource>
