@@ -12,10 +12,11 @@ This example demonstrates how to enable export to Excel in [Data Inspector](http
 
 Follow the steps below to enable export to Excel:
 
-1. Subscribe to the [BeforeRender](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_aspxclientdashboard_beforerender) event. 
-2. Call the [DashboardControl.option](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl?p=netframework#js_devexpress_dashboard_dashboardcontrol_option_args_) method and get access to the [DataInspectorExtension](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtension) options.
-3. Use the [DataInspectorExtensionOptions.onGridInitialized](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtensionOptions#js_devexpress_dashboard_datainspectorextensionoptions_ongridinitialized) property to enable export in the Grid widget before its content is loaded.
-4. Install and reference the additional third-party library required for client-side export. Refer to the following topic for more information: [DevExtreme Client-Side Export](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/).
+1. Install and reference the additional third-party library required for client-side export. Refer to the following topic for more information: [DevExtreme Client-Side Export](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/).
+1. Subscribe to the [`BeforeRender`](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_aspxclientdashboard_beforerender) event. 
+1. Call the [`DashboardControl.option`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl?p=netframework#js_devexpress_dashboard_dashboardcontrol_option_args_) method and get access to the [`DataInspectorExtension`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtension) options.
+1. Use the [`DataInspectorExtensionOptions.onGridInitialized`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtensionOptions#js_devexpress_dashboard_datainspectorextensionoptions_ongridinitialized) property to enable export in the Grid widget before its content is loaded.
+
 
 <!-- default file list -->
 ## Files to Look At
@@ -25,8 +26,8 @@ Follow the steps below to enable export to Excel:
 
 ## Documentation
 
-* [Access to Underlying Widgets](https://docs.devexpress.com/Dashboard/117573/web-dashboard/aspnet-web-forms-dashboard-control/access-to-underlying-widgets?p=netframework)
-* [Client-Side API Overview for for ASP.NET Web Forms Dashboard](https://docs.devexpress.com/Dashboard/116302/web-dashboard/aspnet-web-forms-dashboard-control/client-side-api-overview)
+* [Manage Data Inspector in the ASP.NET Web Forms Dashboard Control](https://docs.devexpress.com/Dashboard/403976/web-dashboard/aspnet-web-forms-dashboard-control/manage-data-inspector-in-asp-net-web-forms-dashboard-control)
+* [Client-Side API Overview for ASP.NET Web Forms Dashboard](https://docs.devexpress.com/Dashboard/116302/web-dashboard/aspnet-web-forms-dashboard-control/client-side-api-overview)
 
 ## API
 
@@ -38,5 +39,5 @@ Follow the steps below to enable export to Excel:
 
 ## More Examples
 
-- [Dashboard for MVC - How to implement server-side export](https://supportcenter.devexpress.com/ticket/details/t590027/asp-net-mvc-dashboard-how-to-implement-server-side-export)
-- [Dashboard for Web Forms - How to export Web Dashboard into PDF with different filter values on different pages](https://supportcenter.devexpress.com/ticket/details/t511362/how-to-export-web-dashboard-into-pdf-with-different-filter-values-on-different-pages)
+- [Dashboard for MVC - How to Enable Export in Data Inspector](https://github.com/DevExpress-Examples/asp.net-mvc-dashboard-how-to-enable-export-in-data-inspector)
+- [Dashboard for Web Forms - How to export Web Dashboard into PDF with different filter values on different pages](https://github.com/DevExpress-Examples/how-to-export-web-dashboard-into-pdf-with-different-filter-values-on-different-pages-t511362)
