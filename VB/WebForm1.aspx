@@ -5,7 +5,9 @@
 <html>
 <head runat="server">
 	<title></title>
-	<script src="Scripts/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/3.8.0/exceljs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 	<script src="Scripts/beforeRender.js"></script>
 </head>
 <body >
