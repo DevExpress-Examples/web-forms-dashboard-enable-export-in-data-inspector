@@ -18,11 +18,9 @@ Follow the steps below to enable export to Excel:
 1. Use the [`DataInspectorExtensionOptions.onGridInitialized`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DataInspectorExtensionOptions#js_devexpress_dashboard_datainspectorextensionoptions_ongridinitialized) property to enable export in the Grid widget before its content is loaded.
 
 
-<!-- default file list -->
-## Files to Look At
+## Files to Review
 * [WebForm1.aspx](./CS/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/WebForm1.aspx))
 * [beforeRender.js](./CS/Scripts/beforeRender.js) (VB: [beforeRender.js](./VB/Scripts/beforeRender.js))
-<!-- default file list end -->
 
 ## Documentation
 
