@@ -40,7 +40,7 @@ Follow the steps below to enable export to Excel:
 - [Dashboard for MVC - How to Enable Export in Data Inspector](https://github.com/DevExpress-Examples/asp.net-mvc-dashboard-how-to-enable-export-in-data-inspector)
 - [Dashboard for Web Forms - How to export Web Dashboard into PDF with different filter values on different pages](https://github.com/DevExpress-Examples/how-to-export-web-dashboard-into-pdf-with-different-filter-values-on-different-pages-t511362)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-dashboard-enable-export-in-data-inspector&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-dashboard-enable-export-in-data-inspector&~~~was_helpful=no)
 
